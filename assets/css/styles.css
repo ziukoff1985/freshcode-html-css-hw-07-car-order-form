@@ -81,10 +81,6 @@ textarea {
   resize: none;
 }
 
-.input-wrapper > select {
-  text-align: left;
-}
-
 .select-input {
   width: 55%;
   background-color: #fff;
