@@ -114,8 +114,9 @@ textarea {
 datalist {
   font-size: 14px;
   display: flex;
-  width: 276px;
+  width: 277px;
   margin-left: auto;
+  margin-top: 5px;
   gap: 22px;
 }
 
