@@ -38,11 +38,12 @@ fieldset > legend {
   font-weight: bold;
 }
 
-.sub-fieldset {
+/* .sub-fieldset {
   border: none;
-}
+} */
 
-.sub-fieldset-wrapper {
+.sub-fieldset-wrapper,
+.radio-wrapper {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -87,8 +88,6 @@ textarea {
 }
 
 .radio-wrapper {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 30px;
 }
 
