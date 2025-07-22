@@ -38,10 +38,6 @@ fieldset > legend {
   font-weight: bold;
 }
 
-/* .sub-fieldset {
-  border: none;
-} */
-
 .sub-fieldset-wrapper,
 .radio-wrapper {
   display: flex;
