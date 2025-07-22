@@ -121,10 +121,6 @@ textarea {
 datalist {
   font-size: 14px;
   display: flex;
-  /* justify-content: space-between; */
-  /* width: 100%; */
-  /* margin-left: auto;
-  margin-top: 5px; */
   gap: 35px;
 }
 
