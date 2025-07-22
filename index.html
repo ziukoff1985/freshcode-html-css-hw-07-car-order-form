@@ -49,9 +49,10 @@
                 />
               </div>
               <div>
-                <fieldset>
-                  <legend class="sub-legend">Gender</legend>
-                  <div class="radio-wrapper">
+                <fieldset class="sub-fieldset">
+                  <div class="sub-fieldset-wrapper">
+                    <legend class="sub-legend">Gender</legend>
+
                     <div class="radio">
                       <label for="male">Male</label>
                       <input
@@ -75,12 +76,14 @@
               </div>
               <div class="input-wrapper">
                 <label for="drive-exp">Driving Experience</label>
-                <select name="drive-exp" id="drive-exp">
+                <select class="select-input" name="drive-exp" id="drive-exp">
                   <option value="---" selected>---</option>
-                  <option value="0-3 years">0-3 years</option>
-                  <option value="3-5 years">3-5 years</option>
-                  <option value="5-10 years">5-10 years</option>
-                  <option value="10+ years">10+ years</option>
+                  <option value="expert">expert</option>
+                  <option value="more than 10">more than 10</option>
+                  <option value="5-10">5-10</option>
+                  <option value="2-5">2-5</option>
+                  <option value="less than 2">less than 2</option>
+                  <option value="beginner">beginner</option>
                 </select>
               </div>
             </fieldset>
@@ -113,6 +116,7 @@
                   name="address"
                   id="address"
                   placeholder="Enter your address"
+                  rows="3"
                 ></textarea>
               </div>
             </fieldset>
@@ -120,7 +124,7 @@
               <legend class="legend">Car Info</legend>
               <div class="input-wrapper">
                 <label for="brand">Brand</label>
-                <select name="brand" id="brand">
+                <select class="select-input" name="brand" id="brand">
                   <option value="---" selected>---</option>
                   <option value="ford">Ford</option>
                   <option value="toyota">Toyota</option>
@@ -129,7 +133,7 @@
               </div>
               <div class="input-wrapper">
                 <label for="model">Model</label>
-                <select name="model" id="model">
+                <select class="select-input" name="model" id="model">
                   <option value="---" selected>---</option>
                   <option value="f-150">Ford F-150</option>
                   <option value="focus">Ford Focus</option>
@@ -143,8 +147,8 @@
                 <label for="used">Used</label>
                 <input type="checkbox" name="used" id="used" />
               </div>
-              <fieldset>
-                <legend class="sub-legend">Color</legend>
+              <fieldset class="sub-fieldset">
+                <!-- <legend class="sub-legend">Color</legend> -->
                 <div class="radio-wrapper">
                   <div class="radio">
                     <label for="red">Red</label>
@@ -172,11 +176,12 @@
                 <div class="input-wrapper">
                   <label for="price">Price, $</label>
                   <input
+                    class="input-range"
                     type="range"
                     name="price"
                     id="price"
                     min="10"
-                    max="100"
+                    max="80"
                     step="10"
                     list="price"
                   />
@@ -190,8 +195,6 @@
                   <option value="60" label="60">60</option>
                   <option value="70" label="70">70</option>
                   <option value="80" label="80">80</option>
-                  <option value="90" label="90">90</option>
-                  <option value="100" label="100">100</option>
                 </datalist>
               </div>
             </fieldset>
