@@ -105,8 +105,15 @@ textarea {
   margin-bottom: 35px;
 }
 
+.range-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
 .input-range {
-  width: 75%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -114,10 +121,11 @@ textarea {
 datalist {
   font-size: 14px;
   display: flex;
-  width: 277px;
-  margin-left: auto;
-  margin-top: 5px;
-  gap: 22px;
+  /* justify-content: space-between; */
+  /* width: 100%; */
+  /* margin-left: auto;
+  margin-top: 5px; */
+  gap: 35px;
 }
 
 .button-wrapper {

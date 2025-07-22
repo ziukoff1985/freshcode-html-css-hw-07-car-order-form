@@ -172,7 +172,7 @@
                 </div>
               </fieldset>
               <div>
-                <div class="input-wrapper">
+                <div class="input-wrapper range-wrapper">
                   <label for="car-price">Price, $</label>
                   <input
                     class="input-range"
@@ -184,17 +184,18 @@
                     step="10"
                     list="price"
                   />
+
+                  <datalist id="price">
+                    <option value="10" label="10">10</option>
+                    <option value="20" label="20">20</option>
+                    <option value="30" label="30">30</option>
+                    <option value="40" label="40">40</option>
+                    <option value="50" label="50">50</option>
+                    <option value="60" label="60">60</option>
+                    <option value="70" label="70">70</option>
+                    <option value="80" label="80">80</option>
+                  </datalist>
                 </div>
-                <datalist id="price">
-                  <option value="10" label="10">10</option>
-                  <option value="20" label="20">20</option>
-                  <option value="30" label="30">30</option>
-                  <option value="40" label="40">40</option>
-                  <option value="50" label="50">50</option>
-                  <option value="60" label="60">60</option>
-                  <option value="70" label="70">70</option>
-                  <option value="80" label="80">80</option>
-                </datalist>
               </div>
             </fieldset>
           </div>
