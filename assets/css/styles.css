@@ -28,7 +28,7 @@ h1 {
 }
 
 .form-fieldsets-wrapper > fieldset {
-  flex-basis: calc((100% - 2 * 10px) / 3);
+  width: calc((100% - 2 * 10px) / 3);
   padding: 20px 10px;
 }
 
